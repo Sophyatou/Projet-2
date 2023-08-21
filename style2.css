@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+                               /* navbar */
+.navbar-brand{
+    font-size: 2.5rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-transform: uppercase; 
+}
+.nav-link:hover{
+    color: black;    
+}
+.search{
+    height: 40px;
+    width: 80%;
+    margin-right: -35px;
+    border-radius: 60px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: 2px solid #42820B;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    border: none;
+    outline: none;
+    color: white;
+    background-color:#42820B ;
+    font-weight: 700px;
+    border-radius:60px ;
+    font-family: 'Montserrat', sans-serif;
+}
+                              /* section1 */
+.main{
+    background: url(images2/accueil2.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    width: 100%;
+    
+} 
+.main h1{
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    color: black;
+} 
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;    
+}     
+.main p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}  
+.mbtn1{
+    height: 45px;
+    width: 30%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color:#42820B;
+    border-radius: 50px;
+    transition: all 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}  
+.mbtn1:hover{
+    background-color: rgb(13, 172, 13);
+}                     
+.mbtn2{
+    height: 45px;
+    width: 30%;
+    outline: none; 
+    background-color: transparent;
+    color:#42820B;
+    border: 1px solid #42820B;
+    border-radius: 50px;
+    transition: all 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}
+.mbtn2:hover{
+    background-color:rgb(13, 172, 13);
+    border: none;
+    color: white;
+}
+.line{
+    height: 5px;
+    width: 25%;
+    background: #42820B;
+    display: inline-block;
+}
+/* ===============About=============== */
+.about{
+    background: url(images2/POMME.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;    
+}
+.about p{
+    color: white;   
+}
+.about h1{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;     
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;    
+}  
+.about p:nth-child(2){
+    font-size: 18px; 
+}
+  /*============Welcome=============*/ 
+.welcome{
+    background-color: #42820B;
+}  
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block; 
+}
+.welcome h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.welcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.welcome i{
+    font-size: 45px;
+    color: #42820B;
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ===============Products============== */
+.products h1{
+    color: black;
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;     
+}
+.products p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;    
+}  
+.products p:nth-child(2){
+    font-size: 18px; 
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.products .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.products .card-body{
+    border: 1px dashed rgb(190, 185, 185);
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.per1{
+    color: rgb(149, 140, 140);
+}
+.btnc{
+    height: 44px;
+    width: 35%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #42820B;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid #42820B;
+    color: #42820B;
+    background-color: transparent;
+    border-radius: 50px;
+}
+/* ==================Discount================== */
+.discount{
+    background-color: #42820B;
+    color: white;
+}
+.discount h1{
+    font-family: 'Lobster', cursive;
+}
+.dbtn{
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all 0.4s;
+}
+.dbtn:hover{
+    background-color: wheat;
+}
+/* =================Store================ */
+.store h1{
+    color: black;
+    font-size: 3rem; 
+    font-family: 'Lobster', cursive;
+}
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;    
+}  
+.store p:nth-child(2){
+    font-size: 18px; 
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{ 
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.store .card:hover{
+    background-color: #42820B;
+    color: white;
+}
+.store .card:hover .per1{
+    color: white;
+}
+/* ===============Seller=============== */
+.seller h1{
+    font-size: 3rem; 
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+.seller i{
+    color: orange;
+}
+.seller .card{
+    border: none;
+    border-radius: 0;
+}
+/* ==========Contact========= */
+.contact{ 
+    background: url(images2/call\ nous.png)no-repeat; 
+    background-size: cover;
+    width: 100%;
+}
+.contact h1{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.contact p{
+    color: white;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 13px; 
+    font-size: 15px;    
+}
+.contact input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 33px;
+    background-color: white; 
+    margin-top: 10px;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cbtn{
+    height: 43px;
+    width: 40%;
+    outline: none;
+    border: none;
+    color: rgb(92, 87, 87);
+    background-color: white;
+    border-radius: 40px;
+    font-weight: lighter;
+    transition: all 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+.cbtn:hover{
+    background-color: wheat;
+}
+/* ===============footer============== */
+.footer{
+    background-color: white; 
+}
+.s1{
+    height: 28px;
+    width: 30px;
+    background-color: transparent ;
+    border: 1px solid black;
+    color: black;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 2px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.s1:hover{
+    background-color: #42820B;
+    border: none;
+}
+.footer p{
+    color: #42820B;
+}
